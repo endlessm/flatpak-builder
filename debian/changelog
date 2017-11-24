@@ -1,3 +1,18 @@
+flatpak-builder (0.10.5-1endless0) unstable; urgency=medium
+
+  * New upstream release
+    - Drop upstreamed patches
+    - Bump flatpak dependency to 0.10.1
+
+ -- Philip Withnall <withnall@endlessm.com>  Thu, 30 Nov 2017 15:17:00 +0000
+
+flatpak-builder (0.10.5-1) unstable; urgency=medium
+
+  * New upstream release
+    - (Build-)depend on flatpak 0.10.1
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 27 Nov 2017 09:14:05 +0000
+
 flatpak-builder (0.10.4-1endless0) unstable; urgency=medium
 
   * Pull in release from Debian Sid
