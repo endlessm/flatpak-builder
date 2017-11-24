@@ -1,0 +1,133 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: flatpak-builder
+Source: https://github.com/flatpak/flatpak-builder
+
+Files:
+ *
+Copyright:
+ © 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+ © 2010-2011 Lennart Poettering
+ © 2011-2015 Colin Walters
+ © 2014-2016 Alexander Larsson
+ © 2014-2017 Red Hat, Inc
+ © 2016-2017 Free Software Foundation, Inc.
+ © 2016 Zbigniew Jędrzejewski-Szmek
+License: LGPL-2.1+
+
+Files:
+ acinclude.m4
+Copyright:
+ © 2008 Tim Toolan
+ © 2014-2015 Philip Withnall
+License: Autoconf-permissive
+
+Files:
+ src/builder-utils.c
+Copyright:
+ © 2001-2016 Red Hat, Inc
+License: GPL-2+
+Comment:
+ This is a conservative interpretation of this message in the middle of
+ the file:
+ .
+  This code is based on debugedit.c from rpm
+ .
+ followed by a GPL-2+ license grant.
+
+Files:
+ m4/attributes.m4
+Copyright:
+ © 2006-2008 Diego Pettenò
+ © 2006-2008 xine project
+ © 2012 Lucas De Marchi
+License: GPL-2+ with Autoconf exception
+
+Files:
+ debian/*
+Copyright:
+ © 2015 David King <amigadave@amigadave.com>
+ © 2016 Collabora Ltd.
+License: LGPL-2.1+
+
+License: GPL-2+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+Comment:
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ '/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+ with Autoconf exception
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA.
+ .
+ As a special exception, the copyright owners of the
+ macro gives unlimited permission to copy, distribute and modify the
+ configure scripts that are the output of Autoconf when processing the
+ Macro. You need not follow the terms of the GNU General Public
+ License when using or distributing such scripts, even though portions
+ of the text of the Macro appear in them. The GNU General Public
+ License (GPL) does govern all other use of the material that
+ constitutes the Autoconf Macro.
+ .
+ This special exception to the GPL applies to versions of the
+ Autoconf Macro released by this project. When you make and
+ distribute a modified version of the Autoconf Macro, you may extend
+ this special exception to the GPL to apply to your modified version as
+ well.
+Comment:
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ '/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+Comment:
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2.1 can be found in the file '/usr/share/common-licenses/LGPL-2.1'.
+
+License: Autoconf-permissive
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved. This file is offered as-is, without any
+ warranty.

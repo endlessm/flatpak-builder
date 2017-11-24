@@ -1,0 +1,5 @@
+Tests: gnome-desktop-testing
+Restrictions: isolation-machine
+Depends:
+ flatpak-builder-tests,
+ gnome-desktop-testing,
