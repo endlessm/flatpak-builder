@@ -1,3 +1,16 @@
+flatpak-builder (0.10.9-1xenial1) xenial; urgency=medium
+
+  * Backport changes for xenial (T22022):
+    - Drop debhelper compat back to 9 since 10 is not in xenial.
+      + debian/compat: Drop back to debhelper 9.
+      + debian/control: Add back dh-autoreconf deps.
+      + debian/rules: Add back --with autoreconf and --parallel.
+    - Switch gtk-update-icon-cache dependencies to libgtk-3-bin since
+      the gtk-update-icon-cache package isn't available on xenial.
+  * Add --enable-p2p option for P2P features. (T18242)
+
+ -- Dan Nicholson <nicholson@endlessm.com>  Thu, 19 Apr 2018 11:42:55 -0500
+
 flatpak-builder (0.10.9-1) unstable; urgency=medium
 
   * New upstream release
