@@ -54,11 +54,12 @@ Depends:
  ${shlibs:Depends},
 Recommends:
  binutils,
- bzr,
  elfutils,
  git,
  patch,
  unzip,
+Suggests:
+ bzr,
 Replaces:
  flatpak (<< 0.9.8-1~),
 Description: Flatpak application building helper
