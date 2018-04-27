@@ -19,6 +19,7 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- \
 		--enable-installed-tests \
+		--enable-p2p \
 		--libexecdir=/usr/lib/flatpak \
 		--with-yaml \
 		$(configure_options)
