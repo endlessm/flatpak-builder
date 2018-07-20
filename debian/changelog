@@ -49,6 +49,14 @@ flatpak-builder (1.0.0-1) unstable; urgency=medium
 
  -- Simon McVittie <smcv@debian.org>  Mon, 20 Aug 2018 15:14:36 +0100
 
+flatpak-builder (0.99.3-1endless1) unstable; urgency=medium
+
+  * New upstream release
+  * Resync Debian packaging
+    - Drop the patch to use --enable-p2p which is the default now
+
+ -- Matthew Leeds <matthew.leeds@endlessm.com>  Fri, 20 Jul 2018 15:38:00 -0700
+
 flatpak-builder (0.99.3-1) unstable; urgency=medium
 
   * New upstream release
