@@ -23,6 +23,13 @@ flatpak-builder (0.99.1-1) unstable; urgency=medium
 
  -- Simon McVittie <smcv@debian.org>  Thu, 21 Jun 2018 22:54:10 +0100
 
+flatpak-builder (0.10.10-1endless1) eos; urgency=medium
+
+  * debian/rules:
+    - Build with --enable-p2p
+
+ -- Cosimo Cecchi <cosimo@endlessm.com>  Fri, 27 Apr 2018 13:07:16 -0700
+
 flatpak-builder (0.10.10-1) unstable; urgency=medium
 
   * New upstream release
