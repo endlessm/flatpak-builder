@@ -41,6 +41,13 @@ flatpak-builder (1.0.1-1) unstable; urgency=medium
 
  -- Simon McVittie <smcv@debian.org>  Thu, 04 Oct 2018 15:44:42 +0100
 
+flatpak-builder (1.0.0-1endless1) unstable; urgency=medium
+
+  * New upstream stable release
+  * Rebase Debian packaging
+
+ -- Matthew Leeds <matthew.leeds@endlessm.com>  Mon, 20 Aug 2018 09:23:00 -0700
+
 flatpak-builder (1.0.0-1) unstable; urgency=medium
 
   * New upstream stable release
