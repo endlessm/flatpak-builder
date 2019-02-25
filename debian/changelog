@@ -1,3 +1,10 @@
+flatpak-builder (1.0.5-1endless1) unstable; urgency=medium
+
+  * New upstream releases
+  * Rebase Debian packaging
+
+ -- Matthew Leeds <matthew.leeds@endlessm.com>  Mon, 25 Feb 2019 13:26:00 -0800
+
 flatpak-builder (1.0.5-1) unstable; urgency=medium
 
   * New upstream release
